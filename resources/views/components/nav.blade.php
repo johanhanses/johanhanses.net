@@ -1,7 +1,7 @@
 <header class="w-full h-24 flex flex-col md:flex-row items-center md:justify-between px-4 lg:px-0 text-gray-800 border-b font-vollkorn">
     <div class="">
         <a href="/">
-            <h1 class="mt-4 md:mt-0 font-black text-2xl">Johan Hanses</h1>
+            <h1 class="mt-4 md:mt-0 font-black text-3xl">Johan Hanses</h1>
         </a>
     </div>
 

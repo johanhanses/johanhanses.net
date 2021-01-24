@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Carbon\Carbon;
 use Livewire\Component;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
 use League\CommonMark\CommonMarkConverter;
 
@@ -22,7 +23,7 @@ class Blog extends Component
 
                 $this->article_list[] = [
                     'link' => $article_file,
-                    'title' => $this->getTitle($article_file),
+                    'title' => Str::ucfirst($this->getTitle($article_file)),
                     'date' => $this->getDate($article_file),
                 ];
             }
@@ -34,7 +35,7 @@ class Blog extends Component
      */
     private function getTitle($filename)
     {
-        return str_replace('-', ' ', substr($filename, 10));
+        return str_replace('-', ' ', substr($filename, 11));
     }
 
     /**
