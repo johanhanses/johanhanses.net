@@ -19,7 +19,7 @@
         <div>
             <x-nav />
 
-            <main class="pt-20 font-lato">
+            <main class="pt-10 px-4 font-lato">
                 {{ $slot }}
             </main>
         </div>
