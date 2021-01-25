@@ -1,5 +1,5 @@
 <div class="text-lg" style="min-height: 70vmin;">
     <h1>
-        About Bengt Bengtsson
+        About Johan
     </h1>
 </div>

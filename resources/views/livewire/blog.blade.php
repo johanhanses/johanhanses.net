@@ -1,5 +1,5 @@
 <div class="text-lg" style="min-height: 70vmin;">
-    <h1 class="mb-12">Bloggens innehåll</h1>
+    <h1 class="mb-12">Articles</h1>
 
     @foreach ($article_list as $article)
     {{-- @dd($article) --}}
